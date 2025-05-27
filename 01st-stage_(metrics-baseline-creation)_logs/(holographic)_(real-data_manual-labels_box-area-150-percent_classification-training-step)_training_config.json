@@ -1,0 +1,17 @@
+{
+    "timestamp": "2025-03-15 15:21:51",
+    "device_info": {
+        "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "gpu_memory": "6.00 GB",
+        "pytorch_version": "2.5.1+cu121",
+        "cuda_version": "12.1"
+    },
+    "dataset_size": 1704,
+    "batch_size": 24,
+    "image_size": 112,
+    "batches_per_epoch": "All",
+    "train_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\04th-setup_task-04_new-work-03\\vet_images_sliced_split\\TrainingStepSet_manual-labels_T_640_150-pc\\train",
+    "val_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\04th-setup_task-04_new-work-03\\vet_images_sliced_split\\TrainingStepSet_manual-labels_T_640_150-pc\\val",
+    "test_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\04th-setup_task-04_new-work-03\\vet_images_sliced_split\\TrainingStepSet_manual-labels_T_640_150-pc\\test",
+    "save_path": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\04th-setup_task-04_new-work-03\\outputMOBILENETv3L_ManualAnnotation_150-pc"
+}

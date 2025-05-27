@@ -1,0 +1,17 @@
+{
+    "timestamp": "2025-03-22 13:35:51",
+    "device_info": {
+        "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "gpu_memory": "6.00 GB",
+        "pytorch_version": "2.5.1+cu121",
+        "cuda_version": "12.1"
+    },
+    "dataset_size": 47785,
+    "batch_size": 24,
+    "image_size": 112,
+    "batches_per_epoch": 200,
+    "train_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\01st-setup_new-work-01\\redone-OM-step_for_task-04\\vet_images_sliced_split_(four_classes)_automated\\TrainingStep\\train",
+    "val_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\01st-setup_new-work-01\\redone-OM-step_for_task-04\\vet_images_sliced_split_(four_classes)_automated\\TrainingStep\\val",
+    "test_folder": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\01st-setup_new-work-01\\redone-OM-step_for_task-04\\vet_images_sliced_split_(four_classes)_automated\\TrainingStep\\test",
+    "save_path": "C:\\Users\\praam\\Desktop\\havetai+vetcyto\\01st-setup_new-work-01\\redone-OM-step_for_task-04\\outputMOBILENETv3L_redone-OM-step_automated"
+}

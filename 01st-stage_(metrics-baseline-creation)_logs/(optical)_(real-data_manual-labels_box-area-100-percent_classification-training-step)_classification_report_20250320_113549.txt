@@ -1,0 +1,24 @@
+Test Loss: 0.0893
+Test Accuracy: 0.9692
+Test Precision: 0.9704
+Test Recall: 0.9692
+Test F1 Score: 0.9698
+Balanced Accuracy: 0.9617
+
+Per-class F1 Scores:
+F1 Score for class 1: 0.9312
+F1 Score for class 2: 0.9298
+F1 Score for class 5: 0.9789
+F1 Score for class 9: 0.9980
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.90      0.97      0.93       119
+           2       0.94      0.92      0.93       115
+           5       1.00      0.96      0.98       194
+           9       1.00      1.00      1.00       254
+
+    accuracy                           0.97       682
+   macro avg       0.96      0.96      0.96       682
+weighted avg       0.97      0.97      0.97       682

@@ -1,0 +1,328 @@
+2025-05-04 19:29:06,408 - GenerationEngine - INFO - Logging initialized. Log file: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\logs_XYZ\generation_engine_20250504_192906.log
+2025-05-04 19:29:06,408 - GenerationEngine - INFO - ================================================================================
+2025-05-04 19:29:06,408 - GenerationEngine - INFO - Starting Generation Engine v0.0
+2025-05-04 19:29:06,408 - GenerationEngine - INFO - Device: cuda
+2025-05-04 19:29:06,408 - GenerationEngine - INFO - Hardware Information:
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - CUDA Version: 12.1
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - GPU Memory: 6.000 GB
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - CPU Cores: 16
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - Total RAM: 15.404 GB
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - Available RAM: 8.733 GB
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - Starting synthetic dataset generation
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - Starting memory monitoring thread
+2025-05-04 19:29:06,421 - GenerationEngine - INFO - Creating output directories
+2025-05-04 19:29:06,441 - GenerationEngine - WARNING - CLEAN_OUTPUT_BEFORE_RUN is True. Deleting existing content in output subdirectories...
+2025-05-04 19:29:06,441 - GenerationEngine - INFO - Cleaned directory: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\synthetic_composed_XYZ
+2025-05-04 19:29:06,441 - GenerationEngine - INFO - Loading generator and critic models
+2025-05-04 19:29:06,441 - GenerationEngine - INFO - Loading models from checkpoint: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\WGAN-SN_training-output_v2-151_flawed-04\continuation-enhanced_00\checkpoints\cont_best_fid_checkpoint.pth.tar
+2025-05-04 19:29:06,523 - GenerationEngine - INFO - Loading checkpoint (with weights_only=False)...
+2025-05-04 19:29:06,613 - GenerationEngine - INFO - Generator loaded from generator_state_dict
+2025-05-04 19:29:06,629 - GenerationEngine - INFO - Critic loaded from critic_state_dict
+2025-05-04 19:29:07,430 - GenerationEngine - INFO - Generator on cuda, Critic on cuda
+2025-05-04 19:29:07,431 - GenerationEngine - INFO - Quality filtering is enabled
+2025-05-04 19:29:07,431 - GenerationEngine - INFO - Calculating statistics from real data
+2025-05-04 19:29:07,432 - GenerationEngine - INFO - Calculating statistics from real pollen images...
+2025-05-04 19:29:07,432 - GenerationEngine - INFO - Using real data from: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\vet_images_sliced\TrainingStepSet_automated-labels_T_full-size_150-pc_undivided_categorized\all-classes-mixed\uniform
+2025-05-04 19:29:08,484 - GenerationEngine - INFO - Processing 20000 real images for statistics...
+2025-05-04 19:29:26,325 - GenerationEngine - INFO - Statistics calculated and saved to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\real_data_stats.json
+2025-05-04 19:29:26,355 - GenerationEngine - INFO - Loading layout statistics
+2025-05-04 19:29:26,355 - GenerationEngine - INFO - Loading layout statistics from: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\backgrounds_layouts_step_automated-labels_pc-150\step_size_320\statistics\layout_statistics.json
+2025-05-04 19:29:26,376 - GenerationEngine - INFO - Layout statistics loaded successfully
+2025-05-04 19:29:26,381 - GenerationEngine - INFO - Generating 46856 individual pollen images
+2025-05-04 19:37:47,623 - GenerationEngine - INFO - Generated 46856 individual pollen images and stored their raw scores.
+2025-05-04 19:37:47,623 - GenerationEngine - INFO - Generating 3272 composed images
+2025-05-04 19:37:47,623 - GenerationEngine - INFO - Loading background images from: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\backgrounds_layouts_step_automated-labels_pc-150\step_size_320\backgrounds
+2025-05-04 19:37:47,922 - GenerationEngine - INFO - Found 5439 background images
+2025-05-04 19:37:47,928 - GenerationEngine - INFO - Processing composed images sequentially (safer in Jupyter)
+2025-05-04 19:37:48,202 - GenerationEngine.Worker-0 - INFO - Worker 0: Models loaded to cuda
+2025-05-04 19:38:23,098 - GenerationEngine - INFO - Generated 50/3272 composed images
+2025-05-04 19:38:23,675 - GenerationEngine.Worker-1 - INFO - Worker 1: Models loaded to cuda
+2025-05-04 19:38:58,219 - GenerationEngine - INFO - Generated 100/3272 composed images
+2025-05-04 19:38:58,724 - GenerationEngine.Worker-2 - INFO - Worker 2: Models loaded to cuda
+2025-05-04 19:39:33,064 - GenerationEngine - INFO - Generated 150/3272 composed images
+2025-05-04 19:39:33,696 - GenerationEngine.Worker-3 - INFO - Worker 3: Models loaded to cuda
+2025-05-04 19:40:07,052 - GenerationEngine - INFO - Generated 200/3272 composed images
+2025-05-04 19:40:07,584 - GenerationEngine.Worker-4 - INFO - Worker 4: Models loaded to cuda
+2025-05-04 19:40:41,340 - GenerationEngine - INFO - Generated 250/3272 composed images
+2025-05-04 19:40:41,890 - GenerationEngine.Worker-5 - INFO - Worker 5: Models loaded to cuda
+2025-05-04 19:41:15,633 - GenerationEngine - INFO - Generated 300/3272 composed images
+2025-05-04 19:41:16,296 - GenerationEngine.Worker-6 - INFO - Worker 6: Models loaded to cuda
+2025-05-04 19:41:50,216 - GenerationEngine - INFO - Generated 350/3272 composed images
+2025-05-04 19:41:50,884 - GenerationEngine.Worker-7 - INFO - Worker 7: Models loaded to cuda
+2025-05-04 19:42:25,874 - GenerationEngine - INFO - Generated 400/3272 composed images
+2025-05-04 19:42:26,501 - GenerationEngine.Worker-8 - INFO - Worker 8: Models loaded to cuda
+2025-05-04 19:43:00,579 - GenerationEngine - INFO - Generated 450/3272 composed images
+2025-05-04 19:43:01,226 - GenerationEngine.Worker-9 - INFO - Worker 9: Models loaded to cuda
+2025-05-04 19:43:34,624 - GenerationEngine - INFO - Generated 500/3272 composed images
+2025-05-04 19:43:35,210 - GenerationEngine.Worker-10 - INFO - Worker 10: Models loaded to cuda
+2025-05-04 19:44:08,376 - GenerationEngine - INFO - Generated 550/3272 composed images
+2025-05-04 19:44:08,955 - GenerationEngine.Worker-11 - INFO - Worker 11: Models loaded to cuda
+2025-05-04 19:44:43,216 - GenerationEngine - INFO - Generated 600/3272 composed images
+2025-05-04 19:44:43,714 - GenerationEngine.Worker-12 - INFO - Worker 12: Models loaded to cuda
+2025-05-04 19:45:17,159 - GenerationEngine - INFO - Generated 650/3272 composed images
+2025-05-04 19:45:17,745 - GenerationEngine.Worker-13 - INFO - Worker 13: Models loaded to cuda
+2025-05-04 19:45:51,943 - GenerationEngine - INFO - Generated 700/3272 composed images
+2025-05-04 19:45:52,600 - GenerationEngine.Worker-14 - INFO - Worker 14: Models loaded to cuda
+2025-05-04 19:46:26,683 - GenerationEngine - INFO - Generated 750/3272 composed images
+2025-05-04 19:46:27,255 - GenerationEngine.Worker-15 - INFO - Worker 15: Models loaded to cuda
+2025-05-04 19:47:01,847 - GenerationEngine - INFO - Generated 800/3272 composed images
+2025-05-04 19:47:02,509 - GenerationEngine.Worker-16 - INFO - Worker 16: Models loaded to cuda
+2025-05-04 19:47:36,903 - GenerationEngine - INFO - Generated 850/3272 composed images
+2025-05-04 19:47:37,467 - GenerationEngine.Worker-17 - INFO - Worker 17: Models loaded to cuda
+2025-05-04 19:48:11,852 - GenerationEngine - INFO - Generated 900/3272 composed images
+2025-05-04 19:48:12,433 - GenerationEngine.Worker-18 - INFO - Worker 18: Models loaded to cuda
+2025-05-04 19:48:46,776 - GenerationEngine - INFO - Generated 950/3272 composed images
+2025-05-04 19:48:47,267 - GenerationEngine.Worker-19 - INFO - Worker 19: Models loaded to cuda
+2025-05-04 19:49:21,312 - GenerationEngine - INFO - Generated 1000/3272 composed images
+2025-05-04 19:49:21,893 - GenerationEngine.Worker-20 - INFO - Worker 20: Models loaded to cuda
+2025-05-04 19:49:54,681 - GenerationEngine - INFO - Generated 1050/3272 composed images
+2025-05-04 19:49:55,338 - GenerationEngine.Worker-21 - INFO - Worker 21: Models loaded to cuda
+2025-05-04 19:50:30,598 - GenerationEngine - INFO - Generated 1100/3272 composed images
+2025-05-04 19:50:31,300 - GenerationEngine.Worker-22 - INFO - Worker 22: Models loaded to cuda
+2025-05-04 19:51:05,646 - GenerationEngine - INFO - Generated 1150/3272 composed images
+2025-05-04 19:51:06,294 - GenerationEngine.Worker-23 - INFO - Worker 23: Models loaded to cuda
+2025-05-04 19:51:40,758 - GenerationEngine - INFO - Generated 1200/3272 composed images
+2025-05-04 19:51:41,249 - GenerationEngine.Worker-24 - INFO - Worker 24: Models loaded to cuda
+2025-05-04 19:52:15,853 - GenerationEngine - INFO - Generated 1250/3272 composed images
+2025-05-04 19:52:16,445 - GenerationEngine.Worker-25 - INFO - Worker 25: Models loaded to cuda
+2025-05-04 19:52:50,284 - GenerationEngine - INFO - Generated 1300/3272 composed images
+2025-05-04 19:52:50,852 - GenerationEngine.Worker-26 - INFO - Worker 26: Models loaded to cuda
+2025-05-04 19:53:25,516 - GenerationEngine - INFO - Generated 1350/3272 composed images
+2025-05-04 19:53:26,143 - GenerationEngine.Worker-27 - INFO - Worker 27: Models loaded to cuda
+2025-05-04 19:54:00,992 - GenerationEngine - INFO - Generated 1400/3272 composed images
+2025-05-04 19:54:01,566 - GenerationEngine.Worker-28 - INFO - Worker 28: Models loaded to cuda
+2025-05-04 19:54:36,315 - GenerationEngine - INFO - Generated 1450/3272 composed images
+2025-05-04 19:54:36,990 - GenerationEngine.Worker-29 - INFO - Worker 29: Models loaded to cuda
+2025-05-04 19:55:12,376 - GenerationEngine - INFO - Generated 1500/3272 composed images
+2025-05-04 19:55:13,037 - GenerationEngine.Worker-30 - INFO - Worker 30: Models loaded to cuda
+2025-05-04 19:55:48,141 - GenerationEngine - INFO - Generated 1550/3272 composed images
+2025-05-04 19:55:48,711 - GenerationEngine.Worker-31 - INFO - Worker 31: Models loaded to cuda
+2025-05-04 19:56:22,212 - GenerationEngine - INFO - Generated 1600/3272 composed images
+2025-05-04 19:56:22,858 - GenerationEngine.Worker-32 - INFO - Worker 32: Models loaded to cuda
+2025-05-04 19:56:56,167 - GenerationEngine - INFO - Generated 1650/3272 composed images
+2025-05-04 19:56:56,666 - GenerationEngine.Worker-33 - INFO - Worker 33: Models loaded to cuda
+2025-05-04 19:57:31,003 - GenerationEngine - INFO - Generated 1700/3272 composed images
+2025-05-04 19:57:31,569 - GenerationEngine.Worker-34 - INFO - Worker 34: Models loaded to cuda
+2025-05-04 19:58:05,470 - GenerationEngine - INFO - Generated 1750/3272 composed images
+2025-05-04 19:58:06,149 - GenerationEngine.Worker-35 - INFO - Worker 35: Models loaded to cuda
+2025-05-04 19:58:40,872 - GenerationEngine - INFO - Generated 1800/3272 composed images
+2025-05-04 19:58:41,542 - GenerationEngine.Worker-36 - INFO - Worker 36: Models loaded to cuda
+2025-05-04 19:59:17,003 - GenerationEngine - INFO - Generated 1850/3272 composed images
+2025-05-04 19:59:17,600 - GenerationEngine.Worker-37 - INFO - Worker 37: Models loaded to cuda
+2025-05-04 19:59:52,890 - GenerationEngine - INFO - Generated 1900/3272 composed images
+2025-05-04 19:59:53,400 - GenerationEngine.Worker-38 - INFO - Worker 38: Models loaded to cuda
+2025-05-04 20:00:27,939 - GenerationEngine - INFO - Generated 1950/3272 composed images
+2025-05-04 20:00:28,592 - GenerationEngine.Worker-39 - INFO - Worker 39: Models loaded to cuda
+2025-05-04 20:01:03,640 - GenerationEngine - INFO - Generated 2000/3272 composed images
+2025-05-04 20:01:04,236 - GenerationEngine.Worker-40 - INFO - Worker 40: Models loaded to cuda
+2025-05-04 20:01:38,705 - GenerationEngine - INFO - Generated 2050/3272 composed images
+2025-05-04 20:01:39,281 - GenerationEngine.Worker-41 - INFO - Worker 41: Models loaded to cuda
+2025-05-04 20:02:14,856 - GenerationEngine - INFO - Generated 2100/3272 composed images
+2025-05-04 20:02:15,366 - GenerationEngine.Worker-42 - INFO - Worker 42: Models loaded to cuda
+2025-05-04 20:02:50,524 - GenerationEngine - INFO - Generated 2150/3272 composed images
+2025-05-04 20:02:51,043 - GenerationEngine.Worker-43 - INFO - Worker 43: Models loaded to cuda
+2025-05-04 20:03:26,800 - GenerationEngine - INFO - Generated 2200/3272 composed images
+2025-05-04 20:03:27,385 - GenerationEngine.Worker-44 - INFO - Worker 44: Models loaded to cuda
+2025-05-04 20:04:03,314 - GenerationEngine - INFO - Generated 2250/3272 composed images
+2025-05-04 20:04:03,907 - GenerationEngine.Worker-45 - INFO - Worker 45: Models loaded to cuda
+2025-05-04 20:04:40,411 - GenerationEngine - INFO - Generated 2300/3272 composed images
+2025-05-04 20:04:41,130 - GenerationEngine.Worker-46 - INFO - Worker 46: Models loaded to cuda
+2025-05-04 20:05:17,625 - GenerationEngine - INFO - Generated 2350/3272 composed images
+2025-05-04 20:05:18,286 - GenerationEngine.Worker-47 - INFO - Worker 47: Models loaded to cuda
+2025-05-04 20:05:51,904 - GenerationEngine - INFO - Generated 2400/3272 composed images
+2025-05-04 20:05:52,480 - GenerationEngine.Worker-48 - INFO - Worker 48: Models loaded to cuda
+2025-05-04 20:06:26,114 - GenerationEngine - INFO - Generated 2450/3272 composed images
+2025-05-04 20:06:26,681 - GenerationEngine.Worker-49 - INFO - Worker 49: Models loaded to cuda
+2025-05-04 20:07:01,703 - GenerationEngine - INFO - Generated 2500/3272 composed images
+2025-05-04 20:07:02,288 - GenerationEngine.Worker-50 - INFO - Worker 50: Models loaded to cuda
+2025-05-04 20:07:37,699 - GenerationEngine - INFO - Generated 2550/3272 composed images
+2025-05-04 20:07:38,274 - GenerationEngine.Worker-51 - INFO - Worker 51: Models loaded to cuda
+2025-05-04 20:08:13,101 - GenerationEngine - INFO - Generated 2600/3272 composed images
+2025-05-04 20:08:13,649 - GenerationEngine.Worker-52 - INFO - Worker 52: Models loaded to cuda
+2025-05-04 20:08:47,404 - GenerationEngine - INFO - Generated 2650/3272 composed images
+2025-05-04 20:08:47,951 - GenerationEngine.Worker-53 - INFO - Worker 53: Models loaded to cuda
+2025-05-04 20:09:21,733 - GenerationEngine - INFO - Generated 2700/3272 composed images
+2025-05-04 20:09:22,390 - GenerationEngine.Worker-54 - INFO - Worker 54: Models loaded to cuda
+2025-05-04 20:09:56,010 - GenerationEngine - INFO - Generated 2750/3272 composed images
+2025-05-04 20:09:56,584 - GenerationEngine.Worker-55 - INFO - Worker 55: Models loaded to cuda
+2025-05-04 20:10:30,089 - GenerationEngine - INFO - Generated 2800/3272 composed images
+2025-05-04 20:10:30,757 - GenerationEngine.Worker-56 - INFO - Worker 56: Models loaded to cuda
+2025-05-04 20:11:04,513 - GenerationEngine - INFO - Generated 2850/3272 composed images
+2025-05-04 20:11:05,174 - GenerationEngine.Worker-57 - INFO - Worker 57: Models loaded to cuda
+2025-05-04 20:11:39,745 - GenerationEngine - INFO - Generated 2900/3272 composed images
+2025-05-04 20:11:40,315 - GenerationEngine.Worker-58 - INFO - Worker 58: Models loaded to cuda
+2025-05-04 20:12:12,844 - GenerationEngine - INFO - Generated 2950/3272 composed images
+2025-05-04 20:12:13,346 - GenerationEngine.Worker-59 - INFO - Worker 59: Models loaded to cuda
+2025-05-04 20:12:47,571 - GenerationEngine - INFO - Generated 3000/3272 composed images
+2025-05-04 20:12:48,147 - GenerationEngine.Worker-60 - INFO - Worker 60: Models loaded to cuda
+2025-05-04 20:13:22,440 - GenerationEngine - INFO - Generated 3050/3272 composed images
+2025-05-04 20:13:23,113 - GenerationEngine.Worker-61 - INFO - Worker 61: Models loaded to cuda
+2025-05-04 20:13:57,822 - GenerationEngine - INFO - Generated 3100/3272 composed images
+2025-05-04 20:13:58,417 - GenerationEngine.Worker-62 - INFO - Worker 62: Models loaded to cuda
+2025-05-04 20:14:31,812 - GenerationEngine - INFO - Generated 3150/3272 composed images
+2025-05-04 20:14:32,507 - GenerationEngine.Worker-63 - INFO - Worker 63: Models loaded to cuda
+2025-05-04 20:15:06,700 - GenerationEngine - INFO - Generated 3200/3272 composed images
+2025-05-04 20:15:07,280 - GenerationEngine.Worker-64 - INFO - Worker 64: Models loaded to cuda
+2025-05-04 20:15:42,409 - GenerationEngine - INFO - Generated 3250/3272 composed images
+2025-05-04 20:15:43,073 - GenerationEngine.Worker-65 - INFO - Worker 65: Models loaded to cuda
+2025-05-04 20:15:58,286 - GenerationEngine - INFO - Generated 3272/3272 composed images
+2025-05-04 20:15:58,530 - GenerationEngine - INFO - Generated 3272 composed images
+2025-05-04 20:15:58,530 - GenerationEngine - INFO - DEBUG: Analysis section - VISUALIZE_TSNE=True, VISUALIZE_UMAP=True
+2025-05-04 20:15:58,531 - GenerationEngine - INFO - DEBUG: VISUALIZATION_SAMPLE_SIZE=15000, ANALYSIS_SAMPLE_SIZE=60000
+2025-05-04 20:15:58,531 - GenerationEngine - INFO - ======================================== STARTING ANALYSIS ========================================
+2025-05-04 20:15:58,532 - GenerationEngine - INFO - Loading InceptionV3 model for analysis...
+2025-05-04 20:15:58,960 - GenerationEngine - INFO - Extracting features from real images for comparison...
+2025-05-04 20:15:59,845 - GenerationEngine - INFO - Using 60000 real image samples for metric calculation.
+2025-05-04 20:15:59,845 - GenerationEngine - INFO - Extracting features from 60000 real images...
+2025-05-04 20:15:59,845 - GenerationEngine - INFO - GPU Memory [Before Processing real images features]: Allocated: 0.222 GB | Reserved: 0.270 GB
+2025-05-04 20:15:59,847 - GenerationEngine - INFO - CPU Memory [Before Processing real images features]: 1.824 GB
+2025-05-04 20:20:27,089 - GenerationEngine - INFO - Extracted features from 60000 images, shape: (60000, 2048)
+2025-05-04 20:20:27,089 - GenerationEngine - INFO - GPU Memory [After Processing real images features]: Allocated: 0.222 GB | Reserved: 0.270 GB
+2025-05-04 20:20:27,089 - GenerationEngine - INFO - CPU Memory [After Processing real images features]: 2.777 GB
+2025-05-04 20:20:27,093 - GenerationEngine - INFO - --- Analysis 1: Saved (Potentially Filtered) Generated Images ---
+2025-05-04 20:20:27,127 - GenerationEngine - INFO - Average Critic Score (Filtered Sample): -0.0412
+2025-05-04 20:20:27,141 - GenerationEngine - INFO - Extracting features from 46856 saved/filtered generated images for metrics...
+2025-05-04 20:20:27,141 - GenerationEngine - INFO - Extracting features from 46856 generated images...
+2025-05-04 20:20:27,141 - GenerationEngine - INFO - GPU Memory [Before Processing generated images features]: Allocated: 0.222 GB | Reserved: 0.270 GB
+2025-05-04 20:20:27,147 - GenerationEngine - INFO - CPU Memory [Before Processing generated images features]: 2.778 GB
+2025-05-04 20:27:59,536 - GenerationEngine - INFO - Extracted features from 46856 images, shape: (46856, 2048)
+2025-05-04 20:27:59,536 - GenerationEngine - INFO - GPU Memory [After Processing generated images features]: Allocated: 0.222 GB | Reserved: 0.270 GB
+2025-05-04 20:27:59,536 - GenerationEngine - INFO - CPU Memory [After Processing generated images features]: 2.895 GB
+2025-05-04 20:27:59,577 - GenerationEngine - INFO - Subsampling 7500 real and 7500 generated features for visualization.
+2025-05-04 20:27:59,577 - GenerationEngine - INFO - Generating t-SNE plot (Filtered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_filtered.png
+2025-05-04 20:27:59,577 - GenerationEngine - INFO - Preparing 15000 points (7500 real vs 7500 generated) for t-SNE...
+2025-05-04 20:27:59,606 - GenerationEngine - INFO - Computing t-SNE (perplexity=30, init='pca', lr='auto', n_jobs=-1)... (Check console for verbose progress)
+2025-05-04 20:30:06,033 - GenerationEngine - INFO - t-SNE computation finished in 126.427 seconds.
+2025-05-04 20:30:06,033 - GenerationEngine - INFO - Generating plot file: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_filtered.png
+2025-05-04 20:30:06,821 - GenerationEngine - INFO - Saved t-SNE plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_filtered.png
+2025-05-04 20:30:06,836 - GenerationEngine - INFO - Generating UMAP plot (Filtered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\umap_visualization_filtered.png
+2025-05-04 20:30:06,836 - GenerationEngine - INFO - Starting UMAP calculation for 15000 points...
+2025-05-04 20:30:06,858 - GenerationEngine - INFO - Computing UMAP embedding...
+2025-05-04 20:30:45,315 - GenerationEngine - INFO - UMAP calculation finished in 38.479 seconds.
+2025-05-04 20:30:46,055 - GenerationEngine - INFO - Saved UMAP plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\umap_visualization_filtered.png
+2025-05-04 20:30:46,055 - GenerationEngine - INFO - Calculating PRDC metrics using 46856 real vs 46856 filtered generated features.
+2025-05-04 20:30:46,055 - GenerationEngine - INFO - Calculating P/R/D/C metrics using torch-fidelity...
+2025-05-04 20:30:46,641 - GenerationEngine - ERROR - torch-fidelity calculation failed: At least one of "isc", "fid", "kid", "ppl" metrics must be specified
+2025-05-04 20:30:46,641 - GenerationEngine - INFO - Falling back to custom P/R/D/C implementation...
+2025-05-04 20:30:46,683 - GenerationEngine - INFO - Calculating custom P/R/D/C (k=6, multiplier=1.2, subsample=True)
+2025-05-04 20:30:46,699 - GenerationEngine - INFO - Subsampling real features from 46856 to 10000 for manifold estimation
+2025-05-04 20:30:46,726 - GenerationEngine - INFO - Subsampling fake features from 46856 to 10000 for manifold estimation
+2025-05-04 20:31:31,800 - GenerationEngine - INFO - Calculating metrics using individual distances (chunked)...
+2025-05-04 20:31:34,606 - GenerationEngine - INFO - Processing precision in 10 chunks...
+2025-05-04 20:33:08,125 - GenerationEngine - INFO - Processing recall in 10 chunks...
+2025-05-04 20:39:33,326 - GenerationEngine - INFO - Individual distances metrics: P=0.7331, R=0.2937, D=0.000622, C=0.2937
+2025-05-04 20:39:33,326 - GenerationEngine - INFO - Calculating metrics using mean distances...
+2025-05-04 20:39:33,330 - GenerationEngine - INFO - Mean distance thresholds: real=9.338090, fake=8.129306
+2025-05-04 20:44:09,106 - GenerationEngine - INFO - Mean distances metrics: P=0.9274, R=0.3278, D=0.000622, C=0.3278
+2025-05-04 20:44:09,471 - GenerationEngine - INFO - Generating PRDC radar chart (Filtered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_filtered.png
+2025-05-04 20:44:09,838 - GenerationEngine - INFO - Saved radar chart to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_filtered.png
+2025-05-04 20:44:09,838 - GenerationEngine - INFO - Calculating FID/KID using 46856 real vs 46856 filtered generated features.
+2025-05-04 20:44:15,580 - GenerationEngine - INFO - Calculated FID: 58.249
+2025-05-04 20:44:15,893 - GenerationEngine - INFO - Calculating KID using chunked approach to save memory
+2025-05-04 20:44:15,893 - GenerationEngine - INFO - Processing KID in 24 chunks (size: 2000)...
+2025-05-04 20:46:13,573 - GenerationEngine - INFO - Calculated KID: 24.041
+2025-05-04 20:46:14,191 - GenerationEngine - INFO - --- Analysis 2: Unfiltered Generated Images ---
+2025-05-04 20:46:14,191 - GenerationEngine - INFO - Generating 60000 new unfiltered images for analysis...
+2025-05-04 20:46:14,191 - GenerationEngine - INFO - Temporarily moving generator to cuda for unfiltered generation.
+2025-05-04 20:47:34,910 - GenerationEngine - INFO - Moving generator back to cuda:0.
+2025-05-04 20:47:35,230 - GenerationEngine - INFO - Generated 60000 unfiltered images.
+2025-05-04 20:47:35,230 - GenerationEngine - INFO - Calculating average critic score for 60000 unfiltered samples...
+2025-05-04 20:50:40,867 - GenerationEngine - INFO - Average Critic Score (Unfiltered): -0.0412
+2025-05-04 20:50:41,178 - GenerationEngine - INFO - Extracting features from 60000 unfiltered generated images for metrics...
+2025-05-04 20:50:41,178 - GenerationEngine - INFO - Extracting features from 60000 generated images...
+2025-05-04 20:50:41,188 - GenerationEngine - INFO - GPU Memory [Before Processing generated images features]: Allocated: 0.222 GB | Reserved: 0.395 GB
+2025-05-04 20:50:41,188 - GenerationEngine - INFO - CPU Memory [Before Processing generated images features]: 3.336 GB
+2025-05-04 20:54:56,201 - GenerationEngine - INFO - Extracted features from 60000 images, shape: (60000, 2048)
+2025-05-04 20:54:56,201 - GenerationEngine - INFO - GPU Memory [After Processing generated images features]: Allocated: 0.222 GB | Reserved: 0.395 GB
+2025-05-04 20:54:56,201 - GenerationEngine - INFO - CPU Memory [After Processing generated images features]: 4.394 GB
+2025-05-04 20:54:56,699 - GenerationEngine - INFO - Subsampling 7500 real and 7500 generated features for visualization.
+2025-05-04 20:54:56,699 - GenerationEngine - INFO - Generating t-SNE plot (Unfiltered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_unfiltered.png
+2025-05-04 20:54:56,699 - GenerationEngine - INFO - Preparing 15000 points (7500 real vs 7500 generated) for t-SNE...
+2025-05-04 20:54:56,717 - GenerationEngine - INFO - Computing t-SNE (perplexity=30, init='pca', lr='auto', n_jobs=-1)... (Check console for verbose progress)
+2025-05-04 20:57:13,613 - GenerationEngine - INFO - t-SNE computation finished in 136.895 seconds.
+2025-05-04 20:57:13,613 - GenerationEngine - INFO - Generating plot file: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_unfiltered.png
+2025-05-04 20:57:14,369 - GenerationEngine - INFO - Saved t-SNE plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\tsne_visualization_unfiltered.png
+2025-05-04 20:57:14,385 - GenerationEngine - INFO - Generating UMAP plot (Unfiltered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\umap_visualization_unfiltered.png
+2025-05-04 20:57:14,385 - GenerationEngine - INFO - Starting UMAP calculation for 15000 points...
+2025-05-04 20:57:14,410 - GenerationEngine - INFO - Computing UMAP embedding...
+2025-05-04 20:57:24,484 - GenerationEngine - INFO - UMAP calculation finished in 10.099 seconds.
+2025-05-04 20:57:25,212 - GenerationEngine - INFO - Saved UMAP plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\umap_visualization_unfiltered.png
+2025-05-04 20:57:25,260 - GenerationEngine - INFO - Calculating PRDC metrics using 60000 real vs 60000 unfiltered generated features.
+2025-05-04 20:57:25,260 - GenerationEngine - INFO - Calculating P/R/D/C metrics using torch-fidelity...
+2025-05-04 20:57:26,173 - GenerationEngine - ERROR - torch-fidelity calculation failed: At least one of "isc", "fid", "kid", "ppl" metrics must be specified
+2025-05-04 20:57:26,173 - GenerationEngine - INFO - Falling back to custom P/R/D/C implementation...
+2025-05-04 20:57:26,447 - GenerationEngine - INFO - Calculating custom P/R/D/C (k=6, multiplier=1.2, subsample=True)
+2025-05-04 20:57:26,447 - GenerationEngine - INFO - Subsampling real features from 60000 to 10000 for manifold estimation
+2025-05-04 20:57:26,483 - GenerationEngine - INFO - Subsampling fake features from 60000 to 10000 for manifold estimation
+2025-05-04 20:58:09,490 - GenerationEngine - INFO - Calculating metrics using individual distances (chunked)...
+2025-05-04 20:58:12,253 - GenerationEngine - INFO - Processing precision in 12 chunks...
+2025-05-04 20:59:59,014 - GenerationEngine - INFO - Processing recall in 12 chunks...
+2025-05-04 21:09:20,106 - GenerationEngine - INFO - Individual distances metrics: P=0.6854, R=0.2201, D=0.000461, C=0.2201
+2025-05-04 21:09:20,106 - GenerationEngine - INFO - Calculating metrics using mean distances...
+2025-05-04 21:09:20,111 - GenerationEngine - INFO - Mean distance thresholds: real=9.313705, fake=8.033726
+2025-05-04 21:16:00,483 - GenerationEngine - INFO - Mean distances metrics: P=0.8941, R=0.2795, D=0.000461, C=0.2795
+2025-05-04 21:16:00,859 - GenerationEngine - INFO - Generating PRDC radar chart (Unfiltered): C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_unfiltered.png
+2025-05-04 21:16:01,226 - GenerationEngine - INFO - Saved radar chart to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_unfiltered.png
+2025-05-04 21:16:01,226 - GenerationEngine - INFO - Calculating FID/KID using 60000 real vs 60000 unfiltered generated features.
+2025-05-04 21:16:07,375 - GenerationEngine - INFO - Calculated FID: 62.320
+2025-05-04 21:16:07,687 - GenerationEngine - INFO - Calculating KID using chunked approach to save memory
+2025-05-04 21:16:07,687 - GenerationEngine - INFO - Processing KID in 30 chunks (size: 2000)...
+2025-05-04 21:19:18,391 - GenerationEngine - INFO - Calculated KID: 24.586
+2025-05-04 21:19:18,984 - GenerationEngine - INFO - Generating combined PRDC radar chart: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_comparison.png
+2025-05-04 21:19:19,398 - GenerationEngine - INFO - Saved combined radar chart to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\prdc_radar_comparison.png
+2025-05-04 21:19:19,398 - GenerationEngine - INFO - Generating FID/KID comparison chart: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\fid_kid_comparison.png
+2025-05-04 21:19:19,398 - GenerationEngine - INFO - Generating FID/KID comparison plot: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\fid_kid_comparison.png
+2025-05-04 21:19:19,772 - GenerationEngine - INFO - Saved FID/KID comparison plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\fid_kid_comparison.png
+2025-05-04 21:19:19,772 - GenerationEngine - INFO - Creating sample visualization
+2025-05-04 21:19:21,922 - GenerationEngine - INFO - Analysis and Visualization completed in 3803.390 seconds
+2025-05-04 21:19:21,929 - GenerationEngine - INFO - ======================================== FINISHED ANALYSIS ========================================
+2025-05-04 21:19:21,932 - GenerationEngine - INFO - Creating performance summary
+2025-05-04 21:19:21,935 - GenerationEngine - INFO - Performance summary saved to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\performance_summary.txt
+2025-05-04 21:19:21,935 - GenerationEngine - INFO - Generating markdown report
+2025-05-04 21:19:21,937 - GenerationEngine - INFO - Markdown report saved successfully to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\reports_XYZ\generation_report_20250504_211921.md
+2025-05-04 21:19:21,937 - GenerationEngine - INFO - Report saved to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\reports_XYZ\generation_report_20250504_211921.md
+2025-05-04 21:19:21,938 - GenerationEngine - INFO - Saving final configuration
+2025-05-04 21:19:21,939 - GenerationEngine - INFO - Configuration saved to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\configs_XYZ\config_20250504_211921.json
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - ================================================================================
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - Synthetic dataset generation completed
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - Total execution time: 6615.509 seconds
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - Individual pollen images: 46856/46856
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - Composed images: 3272/3272
+2025-05-04 21:19:26,955 - GenerationEngine - INFO - ================================================================================
+2025-05-04 21:19:27,007 - GenerationEngine - INFO - Saving features for KID comparison to: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp
+2025-05-04 21:19:27,361 - GenerationEngine - INFO - Saved real features to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\real_features.npy
+2025-05-04 21:19:27,408 - GenerationEngine - INFO - Memory monitoring thread stopped
+2025-05-04 21:19:27,646 - GenerationEngine - INFO - Saved filtered gen features to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\filtered_gen_features.npy
+2025-05-04 21:19:28,012 - GenerationEngine - INFO - Saved unfiltered gen features to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\unfiltered_gen_features.npy
+2025-05-04 21:19:28,012 - GenerationEngine - INFO - Saved feature paths to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\feature_paths.json
+2025-05-04 21:19:28,012 - GenerationEngine - INFO - Forcing memory cleanup after saving features
+2025-05-04 21:19:28,302 - GenerationEngine - INFO - ================================================================================
+2025-05-04 21:19:28,302 - GenerationEngine - INFO - Generation Engine completed successfully
+2025-05-04 21:19:28,302 - GenerationEngine - INFO - Generated 46856 individual pollen images
+2025-05-04 21:19:28,302 - GenerationEngine - INFO - Generated 3272 composed images with annotations
+2025-05-04 21:19:28,312 - GenerationEngine - INFO - Total execution time: 6615.509 seconds
+2025-05-04 21:19:28,312 - GenerationEngine - INFO - ================================================================================
+2025-05-04 21:19:28,381 - GenerationEngine - INFO - ======================================== STARTING KID METHOD COMPARISON ========================================
+2025-05-04 21:19:28,381 - GenerationEngine - INFO - Loading features for KID comparison from disk...
+2025-05-04 21:19:28,547 - GenerationEngine - INFO - Loaded real features (shape: (60000, 2048)) from C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\real_features.npy
+2025-05-04 21:19:28,671 - GenerationEngine - INFO - Loaded filtered gen features (shape: (46856, 2048)) from C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\filtered_gen_features.npy
+2025-05-04 21:19:28,836 - GenerationEngine - INFO - Loaded unfiltered gen features (shape: (60000, 2048)) from C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\stats_XYZ\temp_features_for_kid_comp\unfiltered_gen_features.npy
+2025-05-04 21:19:28,836 - GenerationEngine - INFO - Saving the KID Calculation Method Implementation Comparison results to: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\kid_methods_comparison
+2025-05-04 21:19:28,836 - GenerationEngine - INFO - --- Comparing the KID methods for Filtered Data ---
+2025-05-04 21:19:56,599 - GenerationEngine - INFO - Filtered KID (Continuation Method): 35.585978 ± 7.522046
+2025-05-04 21:19:56,599 - GenerationEngine - INFO - Calculating KID (Generation Method) on 46856 samples.
+2025-05-04 21:19:56,599 - GenerationEngine - INFO - Calculating KID kernel sums in 47 chunks of size approx 1000...
+2025-05-04 21:23:16,471 - GenerationEngine - INFO - KID (Generation Method) chunked calculation complete.
+2025-05-04 21:23:16,471 - GenerationEngine - INFO - Filtered KID (Generation Method): 24.041
+2025-05-04 21:23:16,484 - GenerationEngine - INFO - --- Comparing the KID methods for Unfiltered Data ---
+2025-05-04 21:23:42,999 - GenerationEngine - INFO - Unfiltered KID (Continuation Method): 37.476510 ± 6.819021
+2025-05-04 21:23:42,999 - GenerationEngine - INFO - Calculating KID (Generation Method) on 60000 samples.
+2025-05-04 21:23:43,001 - GenerationEngine - INFO - Calculating KID kernel sums in 60 chunks of size approx 1000...
+2025-05-04 21:28:25,127 - GenerationEngine - INFO - KID (Generation Method) chunked calculation complete.
+2025-05-04 21:28:25,127 - GenerationEngine - INFO - Unfiltered KID (Generation Method): 24.586
+2025-05-04 21:28:25,127 - GenerationEngine - INFO - Generating the KID method comparison plot: C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\kid_methods_comparison\kid_methods_comparison_20250504_212825.png
+2025-05-04 21:28:25,424 - GenerationEngine - INFO - Saved the KID Calculation Method Implementation Comparison plot to C:\Users\praam\Desktop\havetai+vetcyto\task-05_dataset\generation-engine_XYZ\graphs_XYZ\kid_methods_comparison\kid_methods_comparison_20250504_212825.png
+2025-05-04 21:28:25,674 - GenerationEngine - INFO - Cleaning up after KID comparison...
+2025-05-04 21:28:25,969 - GenerationEngine - INFO - KID comparison cleanup complete
+2025-05-04 21:28:25,969 - GenerationEngine - INFO - ======================================== FINISHED THE KID CALCULATION IMPLEMENTATION METHOD COMPARISON ========================================
